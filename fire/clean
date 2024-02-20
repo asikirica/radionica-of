@@ -1,0 +1,9 @@
+#!/bin/sh
+
+foamListTimes -rm
+rm -rf constant/polyMesh
+rm -rf processor*
+rm log*
+
+rm -rf 0
+cp -rf 0.orig 0
