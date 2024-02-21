@@ -1,11 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=sloshing
-#SBATCH --time=00:60:00
-#SBATCH --nodes=2
-#SBATCH --ntasks-per-node=8
-#SBATCH --mem-per-cpu=1024MB
-#SBATCH --output=logit-%j.out
-#SBATCH --partition=computes_thin
 
 # decomposition
 nx=4

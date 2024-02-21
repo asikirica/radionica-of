@@ -1,11 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=fire
-#SBATCH --time=00:60:00
-#SBATCH --nodes=2
-#SBATCH --ntasks-per-node=5
-#SBATCH --mem-per-cpu=1024MB
-#SBATCH --output=logit-%j.out
-#SBATCH --partition=computes_thin
 
 # create mesh
 blockMesh > log.blockMesh 2>&1
